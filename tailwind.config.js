@@ -10,15 +10,16 @@ module.exports = {
       },
       keyframes: {
         move: {
-          '0%, 100%': { transform: 'translate-x-full ' },
+          '-100%': { transform: 'translate-x-full ' },
+          '100%': { transform: 'translate-x-full ' },
            
 
         },
      },
 
       animation: {
-        'spin-slow': 'spin 15s linear infinite',
-        'move': 'translateX 10s linear infinite'
+        'spin-slow': 'spin 25s linear infinite',
+        'move': 'translateX 25s linear infinite'
        }
     },
   },

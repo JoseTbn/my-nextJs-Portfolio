@@ -16,6 +16,10 @@ import { useEffect } from 'react';
 
 export default function Home() {
 
+  const current = new Date();
+  const date = `${current.getHours()}:${current.getUTCMinutes()}   ${current.getUTCDate()}/${current.getUTCMonth()+1}/${current.getFullYear()} `;
+
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -41,7 +45,7 @@ alt='roundanimation'
 
           <nav className='box-border hidden justify-between m-0 px-0 py-8 lg:flex lg:justify-end lg:ml-auto'>
             <ul>
-              <Link href='/Contact'><a className='lg:inline-block lg:text-xs lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline' href="">work</a>
+              <Link href='/Contact'><a className='lg:inline-block lg:text-xl lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline md:text-xs' href="">work</a>
               </Link >
               <a className='lg:inline-block lg:text-xs lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline' href="">about</a>
               <a className='lg:inline-block lg:text-xs lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline' href="">contact</a>
@@ -57,14 +61,16 @@ alt='roundanimation'
   m-auto p-0'>
           <div className=''>
 
-            <h1 className='box-border font-light m-0  pb-10 uppercase text-xl whitespace-nowrap'>Full Stack Web Developer - Front end Oriented - Logo Creator </h1>
+            <h1 className='box-border font-light m-0  pb-10 uppercase text-xl whitespace-nowrap'>Full Stack Web Developer -
+             Front end Oriented -
+             Logo Creator </h1>
           </div>
 
 
           <div data-aos="fade-down" data-aos-duration="3000" className=" w-full my-auto  lg:h-72 lg:mb-20 2xl:h-60 flex  justify-between ">
 
 
-            <h1 className='  text-9xl leading-2  w-4/5 lg:block lg:font-semibold lg:leading-4 lg:mt-4 lg:tracking-tighter lg:w-3/5 2xl:leading-4 2xl:mt-1 2xl:w-3/5 uppercase '>Jose Batumeni</h1>
+            <h1 className='  lg:text-9xl leading-4  lg:block lg:font-semibold  lg:mt-4 lg:tracking-tighter lg:w-3/5 2xl:mt-1 2xl:w-3/5 uppercase '>Jose Batumeni</h1>
             <Image className='  animate-spin-slow'
               src={roundtxt}
               alt='roundanimation'
@@ -73,8 +79,8 @@ alt='roundanimation'
 
           <div className='flex
  w-full justify-between'>
-            <h1>date</h1>
-            <a className='  aunderline hover:no-underline' href="mailto:Btnjose@gmail.com">Btnjose@gmail.com</a>
+            <h1 className='text-xl'>{date}</h1>
+            <a className=' text-xl   hover:underline' href="mailto:Btnjose@gmail.com">Btnjose@gmail.com</a>
 
           </div>
 
@@ -110,15 +116,96 @@ alt='roundanimation'
 
             </span>
           </p>
-          <p className=' py-3 '>
-            <span className='-translate-x-full animate-spin-slow box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl  text-gray-300 stroke-black stroke-1' >OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF
+          <p className=' relative py-6 '>
+            <span className='-translate-x-full w-full absolute  animate-spin-slow  box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl  text-gray-300 stroke-black stroke-1' >OTF -
+             OTF -
+            OTF -
+            OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+              OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
+             OTF -
             </span>
           </p>
           
           
-          <p className='py-3'>
+          <p className='pt-10'>
 
-            <span className=' overflow-visible  -translate-x-1/2 animate-spin-slow box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl '>
+            <span className='   -translate-x-1/3 animate-spin-slow box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl '>
+              Passion -
+              Commitment -
+              Respect -
+              Motivation -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
               Commitment1 -
               Commitment -
               Commitment -
@@ -134,31 +221,11 @@ alt='roundanimation'
               Commitment -
               Commitment -
               Commitment -
+              Inquisit -
+              Passion -
               Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment1 -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
-              Commitment -
+              Respect -
+              Motivation -
             
             </span>
           </p>
@@ -177,7 +244,7 @@ alt='roundanimation'
         <div className="box-border  flex flex-col w-4/5 h-3/5 px-4  py-4 
   m-auto p-0">
 
-          <h2 className=' text-2xl pt-2'>Crafted</h2>
+          <h2 className=' text-2xl pt-2'>Works</h2>
 
 
           <div className="  pt-40">
@@ -188,8 +255,8 @@ alt='roundanimation'
 
             <div className="box-border m-0  lg:py-24 p-0 lg:flex lg:flex-row-reverse lg:items-center lg:justify-between  lg:mx-auto">
 
-              <div data-aos="zoom-in-up" data-aos-duration="1500" className='transition duration-500 ease-in-out transform hover:scale-110'>
-                <Image
+              <div data-aos="zoom-in-up" data-aos-duration="1500" className='transition duration-500 ease-in-out transform  hover:scale-110 cursor-pointer'>
+                <Image 
                   src="/anticip.png"
                   alt='anticip team staffing agency'
                   width={800}
