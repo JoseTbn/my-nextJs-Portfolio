@@ -1,82 +1,230 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import roundtxt from '../public/circletext.f0059cc8.svg'
+import noise from '../public/noise.d095195e.png'
+import Link from 'next/link'
+
+
+
+import AOS from "aos";
+
+
+
+
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <>
+
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
+          rel="stylesheet"
+        />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
+      <section className='  h-screen ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+        {/* <Image
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
+src={noise}
+alt='roundanimation'
+/> */}
+        <header className=' container '>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
+          <nav className='box-border hidden justify-between m-0 px-0 py-8 lg:flex lg:justify-end lg:ml-auto'>
+            <ul>
+              <Link href='/Contact'><a className='lg:inline-block lg:text-xs lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline' href="">work</a>
+              </Link >
+              <a className='lg:inline-block lg:text-xs lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline' href="">about</a>
+              <a className='lg:inline-block lg:text-xs lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline' href="">contact</a>
+            </ul>
+          </nav>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+
+
+        </header>
+
+        <div data-aos="fade-right" data-aos-duration="2500" className=' box-border  flex flex-col w-4/5 h-3/5 px-4  py-4 
+  m-auto p-0'>
+          <div className=''>
+
+            <h1 className='box-border font-light m-0  pb-10 uppercase text-xl whitespace-nowrap'>Full Stack Web Developer - Front end Oriented - Logo Creator </h1>
+          </div>
+
+
+          <div data-aos="fade-down" data-aos-duration="3000" className=" w-full my-auto  lg:h-72 lg:mb-20 2xl:h-60 flex  justify-between ">
+
+
+            <h1 className='  text-9xl leading-2  w-4/5 lg:block lg:font-semibold lg:leading-4 lg:mt-4 lg:tracking-tighter lg:w-3/5 2xl:leading-4 2xl:mt-1 2xl:w-3/5 uppercase '>Jose Batumeni</h1>
+            <Image className='  animate-spin-slow'
+              src={roundtxt}
+              alt='roundanimation'
+            />
+          </div>
+
+          <div className='flex
+ w-full justify-between'>
+            <h1>date</h1>
+            <a className='  aunderline hover:no-underline' href="mailto:Btnjose@gmail.com">Btnjose@gmail.com</a>
+
+          </div>
+
         </div>
-      </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
-    </div>
+
+
+
+
+
+
+        <div className=' uppercase my-20 text-4xl whitespace-nowrap overflow-hidden'>
+          <p className=''>
+            <span className='  w-full -translate-x-full animate-spin-slow box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl'>
+
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+              Out of the box -
+
+            </span>
+          </p>
+          <p className=' py-3 '>
+            <span className='-translate-x-full animate-spin-slow box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl  text-gray-300 stroke-black stroke-1' >OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF - OTF
+            </span>
+          </p>
+          
+          
+          <p className='py-3'>
+
+            <span className=' overflow-visible  -translate-x-1/2 animate-spin-slow box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl '>
+              Commitment1 -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment1 -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+              Commitment -
+            
+            </span>
+          </p>
+        </div>
+
+
+
+
+
+
+      </section>
+
+
+      <section className='  h-screen ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+
+        <div className="box-border  flex flex-col w-4/5 h-3/5 px-4  py-4 
+  m-auto p-0">
+
+          <h2 className=' text-2xl pt-2'>Crafted</h2>
+
+
+          <div className="  pt-40">
+
+            <h2 className=' pb-6 uppercase' >
+              <span className='  font-bold'> N01:</span> Anticip
+            </h2>
+
+            <div className="box-border m-0  lg:py-24 p-0 lg:flex lg:flex-row-reverse lg:items-center lg:justify-between  lg:mx-auto">
+
+              <div data-aos="zoom-in-up" data-aos-duration="1500" className='transition duration-500 ease-in-out transform hover:scale-110'>
+                <Image
+                  src="/anticip.png"
+                  alt='anticip team staffing agency'
+                  width={800}
+                  height={450} />
+              </div>
+
+
+              <div data-aos="fade-down-right" data-aos-duration="1500" >
+                <h2 className='2xl:text-5xl 2xl:mb-2  font-semibold'>
+                  Anticip Team
+                </h2>
+
+                <h3>
+                  Professional Work · 2021 · Development
+                </h3>
+
+                <a href="">
+                  View more
+                </a>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+      </section>
+
+
+    </>
+
   )
 }
