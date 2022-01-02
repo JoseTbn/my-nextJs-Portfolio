@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
-import roundtxt from '../public/circletext.f0059cc8.svg'
+import roundtxt from '../../public/circletext.f0059cc8.svg'
+
 
 
 export default function Hero() {

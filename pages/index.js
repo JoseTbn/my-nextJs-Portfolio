@@ -9,11 +9,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
-import About from './Components/About'
-import Slidetext from './Components/Slidetext'
-import Works from './Components/Works'
-import Contact from './Components/Contact'
-import Navbar from './Components/Navbar'
+import About from '../components/About'
+import Slidetext from '../components/Slidetext'
+import Works from '../components/Works'
+import Contact from '../components/Contact'
+import Navbar from '../components/Navbar'
 
 
 
