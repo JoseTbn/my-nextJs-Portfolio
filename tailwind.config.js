@@ -1,5 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
+enabled: process.env.NODE_ENV === "production"
 
 module.exports = {
   content: [
