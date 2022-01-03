@@ -1,7 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import  j from "../public/stacks/javascript.svg"
+import  a from "../public/stacks/aws.svg"
+import  c from "../public/stacks/css.svg"
+import  f from "../public/stacks/figma.svg"
+import  g from "../public/stacks/git.svg"
+import  h from "../public/stacks/html.svg"
+import  m from "../public/stacks/mongo.svg"
+import  r from "../public/stacks/react.svg"
+import  s from "../public/stacks/sass.svg"
+import  n from "../public/stacks/node.svg"
+import  t from "../public/stacks/tailwind.svg"
 
+ 
 
 export default function About() {
 
@@ -32,10 +44,10 @@ export default function About() {
                     </div>
 
                     <div className=''>
-                        <h3 className='text-3xl lg:text-4xl 2xl:text-4xl 2xl:w-72 font-medium'>CREATING DIGITAL EXPERIENCES TO BRING PEOPLE TOGETHER.</h3>
+                        <h3 className='text-3xl lg:text-4xl 2xl:text-4xl 2xl:w-72 font-medium  uppercase text-gray-600 tracking-wider'>CREATING DIGITAL EXPERIENCES TO BRING PEOPLE TOGETHER.</h3>
                     </div>
                     <div className='lg:mt-8 2xl:mt-8 whitespace-normal'>
-                        <p className=' whitespace-normal text-2xl font-light '>I'm a driven person who works hard to attain my goals.The ability to overcome <br />
+                        <p className=' text-base font-semibold uppercase text-gray-600 tracking-wider'>I'm a driven person who works hard to attain my goals.The ability to overcome <br />
                             obstacles and follow things through to completion has always been a strong point of mine,<br />
                             which is why I've thrived in all the workplaces I have had the pleasure of working in.
                         </p>
@@ -70,15 +82,78 @@ export default function About() {
                         </div>
 
                     </div>
-{/* <div className=' pt-12  w-full  justify-around flex '>
+                    <div className=' pt-12  w-full  justify-around flex flex-col '>
 
-<h2 className='text-5xl font-semibold pt-2 uppercase '>my stack</h2>
+                        <h2 className='text-5xl font-semibold pt-2 uppercase '>Skills</h2>
 
-<div className=' self-end box-border mb-28 w-full'> ppp 
+                        <div className=' self-end box-border mb-28 w-full'>
 
 
-</div>
-</div> */}
+                            <div class="container  px-5 py-24 mx-auto lg:px-16">
+                            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <p className="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
+          My tech stacks & some tools I use in my work flow
+        </p>
+        <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image
+              className="max-h-12"
+              src={j}
+              alt="Workcation"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8  ">
+            <Image className="max-h-12" src={a} alt="Mirage" />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image className="max-h-12" src={s} alt="Tuple" />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image className="max-h-12" src={m} alt="Laravel" />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image
+              className="max-h-12"
+              src={n}
+              alt="StaticKit"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image
+              className="max-h-12"
+              src={r}
+              alt="Statamic"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image
+              className="max-h-12"
+              src={g}
+              alt="Statamic"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image
+              className="max-h-12"
+              src={f}
+              alt="Statamic"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center py-8 px-8 ">
+            <Image
+              className="max-h-12"
+              src={c}
+              alt="Statamic"
+            />
+            
+          </div>
+        </div>
+      </div>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
 
 
