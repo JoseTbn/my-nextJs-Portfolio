@@ -51,7 +51,7 @@ export default function Works() {
                     <div className="box-border m-0  lg:py-24 p-0 lg:flex lg:flex-row-reverse lg:items-center lg:justify-between  lg:mx-auto">
                         <div data-aos="fade-up-left" data-aos-duration="1500" className='transition duration-500 ease-in-out transform  hover:scale-110 cursor-pointer'>
                             <Image
-                                src="/gif searcher app.png"
+                                src="/gifsearcherapp.png"
                                 alt='anticip team staffing agency'
                                 width={800}
                                 height={450} />
