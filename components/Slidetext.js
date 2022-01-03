@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Slidetext() {
     return (
-        <section className=" h-max  "  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+        <section className=" h-max w-screen  "  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
             <div className=' box-border mx-0 mb-0 py-12  p-0 '>
                  <div className=' uppercase  text-4xl whitespace-nowrap overflow-hidden'>
               <p className=''>
@@ -95,41 +95,22 @@ export default function Slidetext() {
             
               <p className=''>
                 <span className='   -translate-x-1/3 animate-spin-slow box-border inline-block font-semibold text-2xl m-0 p-0 lg:text-4xl '>
+                Debug -
+                  Code -
+                  Inquisit -
                   Passion -
                   Commitment -
                   Respect -
                   Motivation -
+                Debug -
+                  Code -
+                  Inquisit -
+                  Passion -
                   Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment1 -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
-                  Commitment -
+                  Respect -
+                  Motivation -
+                Debug -
+                  Code -
                   Inquisit -
                   Passion -
                   Commitment -
