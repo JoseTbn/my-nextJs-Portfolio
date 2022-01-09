@@ -15,7 +15,7 @@ export default function Works() {
                     </h2>
                     <div className="box-border m-0  lg:py-24 p-0 lg:flex lg:flex-row-reverse lg:items-center lg:justify-between  lg:mx-auto">
                         <div data-aos="zoom-in-up" data-aos-duration="1500" className='transition duration-500 ease-in-out transform  hover:scale-110 cursor-pointer'>
-                            <Image
+                            <Image className=' rounded-xl'
                                 src="/anticip.png"
                                 alt='anticip team staffing agency'
                                 width={800}
@@ -28,7 +28,7 @@ export default function Works() {
                             <h3 className=' py-6'>
                                 Professional Work · 2021 · Development
                             </h3>
-                            <a className=' border-black border-2  p-3' href="">
+                            <a className=' border-black border-2  p-3 hover:bg-black hover:text-white' href="">
                                 View more
                             </a>
                         </div>
@@ -49,8 +49,8 @@ export default function Works() {
                         <span className='  font-bold'> N02:</span>  Gif search app
                     </h2>
                     <div className="box-border m-0  lg:py-24 p-0 lg:flex lg:flex-row-reverse lg:items-center lg:justify-between  lg:mx-auto">
-                        <div data-aos="fade-up-left" data-aos-duration="1500" className='transition duration-500 ease-in-out transform  hover:scale-110 cursor-pointer'>
-                            <Image
+                        <div data-aos="fade-up-left" data-aos-duration="1500" className=' transition duration-500 ease-in-out transform  hover:scale-110 cursor-pointer'>
+                            <Image className=' rounded-xl'
                                 src="/gifsearcherapp.png"
                                 alt='anticip team staffing agency'
                                 width={800}
@@ -63,7 +63,7 @@ export default function Works() {
                             <h3 className=' py-6'>
                             Personal project · 2020 · Development
                             </h3>
-                            <a className=' border-black border-2  p-3' href="">
+                            <a className=' border-black border-2  p-3 hover:bg-black hover:text-white' href="">
                                 View more
                             </a>
                         </div>
@@ -84,7 +84,7 @@ export default function Works() {
                     </h2>
                     <div className="box-border m-0  lg:py-24 p-0 lg:flex lg:flex-row-reverse lg:items-center lg:justify-between  lg:mx-auto">
                         <div data-aos="zoom-in-up" data-aos-duration="1500" className='transition duration-500 ease-in-out transform  hover:scale-110 cursor-pointer'>
-                            <Image
+                            <Image className=' rounded-xl'
                                 src="/dashbordapp.png"
                                 alt='anticip team staffing agency'
                                 width={800}
@@ -97,7 +97,7 @@ export default function Works() {
                             <h3 className=' py-6'>
                                 Personal project · 2020 · Development
                             </h3>
-                            <a className=' border-black border-2  p-3' href="">
+                            <a className=' border-black border-2  p-3 hover:bg-black hover:text-white' href="">
                                 View more
                             </a>
                         </div>

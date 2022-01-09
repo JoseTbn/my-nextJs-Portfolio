@@ -22,7 +22,7 @@ export default function Hero() {
 m-auto   '>
    <div className=''>
 
-     <h1 className='box-border font-light m-0  pb-10 uppercase text-xl whitespace-nowrap  sm:whitespace-normal   xs:whitespace-normal '>Full Stack Web Developer -
+     <h1 className='box-border  m-0  pb-10  text-xl whitespace-nowrap  sm:whitespace-normal   xs:whitespace-normal font-semibold uppercase text-gray-600 tracking-wider '>Full Stack Web Developer -
       Front end Oriented -
       Logo Creator </h1>
    </div>

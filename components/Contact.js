@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from './ContactForm'
 
 export default function Contact() {
 
@@ -15,13 +16,13 @@ export default function Contact() {
                 <div className="flex w-full">
                     <div className="">
                         <h2 className="text-8xl lg:mx-0 lg:mt-6 lg:mb-2.5 py-40 font-extrabold " data-aos="zoom-in-down" data-aos-duration="1500"> Get in touch</h2>
-                        <h3 className='box-border font-medium text-2xl mx-0 mb-8 mt-16 p-0  lg:mt-8'> Looking to join or work with an organization <br /> that will leverage my skills and facilitate my professional
+                        <h3 className='box-border font-medium text-2xl mx-0 mb-8 mt-16 p-0  lg:mt-8  uppercase text-gray-600 tracking-wider'> Looking to join or work with an organization <br /> that will leverage my skills and facilitate my professional
                             development </h3>
                         <p className=' mb-8 uppercase'>Brussels, Belgium</p>
                     </div>
                     
-                    <div className="">
-                        
+                    <div className="max-w-2xl mx-auto lg:max-w-none">
+                        <ContactForm/>
                     </div>
                 </div>
 
