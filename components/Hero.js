@@ -34,7 +34,7 @@ m-auto   '>
 
      <h1 className=' 2xl:text-8xl  leading-4 mt-3 w-3/5 lg:text-7xl lg:block font-semibold lg:leading-4 lg:mt-4 lg:tracking-tighter lg:w-3/5 2xl:leading-4 2xl:mt-1 2xl:w-3/5  lg:transform-none md:transform-none xs:-rotate-90 xs:text-5xl uppercase '>Jose Batumeni</h1>
      <div className="w-48 2xl:w-60">
-       <Image className='   animate-spin-slow'
+       <Image className='  animate-spin'
          src={roundtxt}
          alt='roundanimation'
        />

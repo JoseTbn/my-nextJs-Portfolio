@@ -10,24 +10,25 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        texture: `url('/public/noise.d095195e.png')`
+        texture: `url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')`
                  },
       fontFamily: {
         'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
       },
       keyframes: {
-        move: {
-          '-100%': { transform: 'translate-x-full ' },
-          '100%': { transform: 'translate-x-full ' },
-           
-
-        
-     },  
-},
+        scrollX: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+        scrollZ: {
+          '0%': { transform: 'translateX(1%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        }
+      },
       animation: {
-        'spin-slow': 'spin 25s linear infinite',
-        'move': 'translateX 25s linear infinite'
-       }
+        scrollX: 'scrollX 40s linear infinite',
+        scrollZ: 'scrollZ 40s linear infinite'
+      },
     
   },
         screens: {

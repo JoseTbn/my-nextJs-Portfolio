@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Works() {
     return (
         <>  
-        <section className='  h-max w-screen ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+        <section className='  h-max w-screen bg-texture  '>
             <div className="box-border  flex flex-col w-4/5 h-3/5 px-4  pt-40 
   m-auto p-0">
                 <h2 className=' text-3xl font-semibold lg:mt-0 '>Works</h2>
@@ -40,7 +40,7 @@ export default function Works() {
 
         </section>
 
-        <section className='  h-max w-screen ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+        <section className='  h-max w-screen bg-texture  '>
             <div className="box-border  flex flex-col w-4/5 h-3/5 px-4  py-4 
   m-auto p-0">
                 
@@ -74,7 +74,7 @@ export default function Works() {
 
 
         </section>
-        <section className='  h-max w-screen ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+        <section className='  h-max w-screen  bg-texture ' >
             <div className="box-border  flex flex-col w-4/5 h-3/5 px-4  py-4 
   m-auto p-0">
                 
