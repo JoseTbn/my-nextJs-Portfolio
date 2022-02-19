@@ -3,9 +3,9 @@ import React from 'react'
 export default function ContactForm() {
     return (
         <>
-               <form action="https://formsubmit.co/btnjose@gmail.com" method="POST" className="grid grid-cols-1 gap-y-6 ">
+               <form action="https://formsubmit.co/btnjose@gmail.com" method="POST" class="grid grid-cols-1 gap-y-6 ">
               <div>
-                <label htmlFor="full-name" className="sr-only">
+                <label htmlFor="full-name" class="sr-only">
                   Full name
                 </label>
                 <input style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}
@@ -14,12 +14,12 @@ export default function ContactForm() {
                   name="full-name"
                   id="full-name"
                   autoComplete="name"
-                  className="block w-full border-2  shadow-sm py-3 px-4   placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500 border-gray-400 rounded-md"
+                  class="block w-full border-2  shadow-sm py-3 px-4   placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500 border-gray-400 rounded-md"
                   placeholder="Full name"
                 />
               </div>
               <div>
-                <label htmlFor="email" className="sr-only">
+                <label htmlFor="email" class="sr-only">
                   Email
                 </label>
                 <input
@@ -29,12 +29,12 @@ export default function ContactForm() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="block w-full  border-2 shadow-sm py-3 px-4 placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500 border-gray-400 rounded-md"
+                  class="block w-full  border-2 shadow-sm py-3 px-4 placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500 border-gray-400 rounded-md"
                   placeholder="Email"
                 />
               </div>
               <div>
-                <label htmlFor="phone" className="sr-only">
+                <label htmlFor="phone" class="sr-only">
                   Phone
                 </label>
                 <input style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}
@@ -42,12 +42,12 @@ export default function ContactForm() {
                   name="phone"
                   id="phone"
                   autoComplete="tel"
-                  className="block w-full border-2 shadow-sm py-3 px-4 placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500 border-gray-400 rounded-md"
+                  class="block w-full border-2 shadow-sm py-3 px-4 placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500 border-gray-400 rounded-md"
                   placeholder="Phone"
                 />
               </div>
               <div>
-                <label htmlFor="message" className="sr-only">
+                <label htmlFor="message" class="sr-only">
                   Message
                 </label>
                 <textarea
@@ -55,7 +55,7 @@ export default function ContactForm() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="block w-full border-2 shadow-sm py-3 px-4 placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500  border-gray-400 rounded-md"
+                  class="block w-full border-2 shadow-sm py-3 px-4 placeholder-gray-800 focus:ring-indigo-500 focus:border-indigo-500  border-gray-400 rounded-md"
                   placeholder="Message"
                   defaultValue={''}
                 />
@@ -63,7 +63,7 @@ export default function ContactForm() {
               <div>
                 <button
                   type="submit"
-                  className="inline-flex justify-center py-3 px-6 border-2 border-black shadow-sm text-base font-medium  text-black hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  class="inline-flex justify-center py-3 px-6 border-2 border-black shadow-sm text-base font-medium  text-black hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Submit
                 </button>

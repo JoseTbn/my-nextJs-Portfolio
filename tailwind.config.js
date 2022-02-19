@@ -23,21 +23,37 @@ module.exports = {
         scrollZ: {
           '0%': { transform: 'translateX(1%)' },
           '100%': { transform: 'translateX(-100%)' },
-        }
-      },
-      animation: {
-        scrollX: 'scrollX 40s linear infinite',
-        scrollZ: 'scrollZ 40s linear infinite'
-      },
-    
+        },
+
+        spinSlow: {
+          '0, 100%':{transform: 'rotate(360%)'}
+        },
+},
+
+
+animation: {
+    'scrollX': 'scrollX 40s linear infinite',
+   ' scrollZ': 'scrollZ 40s linear infinite',
+    'spinSlow': 'spin 10s linear infinite',
+    'spin-slow': 'spin 3s linear infinite',
+
   },
-        screens: {
+  
+
+       
+  }, 
+  
+  
+  screens: {
+          'xxs': '375px',
           'xs': '475px',
           ...defaultTheme.screens,
         },
-  },
-  variants: {
+  variants: 
+  
+  {
     animation: ['responsive', 'motion-safe', 'motion-reduce']
   },
   plugins: [],
+}
 }
