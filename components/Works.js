@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Works() {
     return (
         <>  
-        <section class='  h-max w-screen bg-texture  '>
+        <section class='  h-max w-full bg-texture  '>
             <div class="box-border  flex flex-col w-4/5 h-3/5 px-4  pt-40 
   m-auto p-0">
                 <h2 class=' text-3xl font-semibold lg:mt-0 '>Works</h2>
@@ -28,9 +28,11 @@ export default function Works() {
                             <h3 class=' py-6'>
                                 Professional Work · 2021 · Development
                             </h3>
-                            <a class=' border-black border-2  p-3 hover:bg-black hover:text-white' href="">
-                                View more
-                            </a>
+                            <Link  href='/work' >
+                                <a class=' border-black border-2  p-3 hover:bg-black hover:text-white' href="">
+                                    View more
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -40,7 +42,7 @@ export default function Works() {
 
         </section>
 
-        <section class='  h-max w-screen bg-texture  '>
+        <section class='  h-max w-full bg-texture  '>
             <div class="box-border  flex flex-col w-4/5 h-3/5 px-4  py-4 
   m-auto p-0">
                 
@@ -74,7 +76,7 @@ export default function Works() {
 
 
         </section>
-        <section class='  h-max w-screen  bg-texture ' >
+        <section class='  h-max w-full  bg-texture ' >
             <div class="box-border  flex flex-col w-4/5 h-3/5 px-4  py-4 
   m-auto p-0">
                 

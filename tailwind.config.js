@@ -33,7 +33,7 @@ module.exports = {
 
 animation: {
     'scrollX': 'scrollX 40s linear infinite',
-   ' scrollZ': 'scrollZ 40s linear infinite',
+   'scrollZ': 'scrollZ 40s linear infinite',
     'spinSlow': 'spin 10s linear infinite',
     'spin-slow': 'spin 3s linear infinite',
 
@@ -48,12 +48,30 @@ animation: {
           'xxs': '375px',
           'xs': '475px',
           ...defaultTheme.screens,
+          '2xlx': { 'max': '1535px' },
+          // => @media (max-width: 1535px) { ... }
+    
+          'xlx': { 'max': '1279px' },
+          // => @media (max-width: 1279px) { ... }
+    
+          'lgx': { 'max': '1023px' },
+          // => @media (max-width: 1023px) { ... }
+    
+          'mdx': { 'max': '767px' },
+          // => @media (max-width: 767px) { ... }
+    
+          'smx': { 'max': '639px' },
+          // => @media (max-width: 639px) { ... 
+          'ssx': { 'max': '475px' },
+          // => @media (max-width: 475px) { ... 
+          'smmd': { 'min': '375px', 'max': '639px' },
+    
         },
   variants: 
   
   {
     animation: ['responsive', 'motion-safe', 'motion-reduce']
   },
-  plugins: [],
+  plugins: ["styled-jsx/babel"],
 }
 }

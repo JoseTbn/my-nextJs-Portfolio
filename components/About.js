@@ -21,7 +21,7 @@ export default function About() {
 
     return (
         <>
-            <div class=' h-full w-screen '>
+            <div class=' h-full w-full   '>
 
                 <div class='box-border mx-auto mt-28 flex flex-col  w-4/5 h-3/5 px-4   pb-24 m-auto p-0'>
                     <h2 class='text-5xl font-semibold pt-2 '>About</h2>
@@ -33,8 +33,8 @@ export default function About() {
 
                     </div>
 
-                    <div class="  self-end w-48 2xl:w-60" data-aos="fade-up-left" data-aos-duration="1500">
-                        <Image class=' '
+                    <div class="  animate-spin  self-end w-48 2xl:w-60" data-aos="fade-up-left" data-aos-duration="1500">
+                        <Image class=''
                             src="/circletext.f0059cc8.svg"
                             alt='roundanimation'
                             width={200}
@@ -54,7 +54,7 @@ export default function About() {
                     </div>
 
 
-                    <div class='   relative  py-4 self-end' data-aos="fade-up-left" data-aos-duration="1500">
+                    <div class='   relative  py-40 self-end' data-aos="fade-up-left" data-aos-duration="1500">
                         <div class=" absolute -bottom-3 -left-96">
 
                             <Image
@@ -82,9 +82,9 @@ export default function About() {
                         </div>
 
                     </div>
-                    <div class=' pt-4  w-full  justify-around flex flex-col '>
+                    <div class=' pt-20  w-full  justify-around flex flex-col '>
 
-                        <h2 class='text-5xl font-semibold pt-2 uppercase '>Skills</h2>
+                        <h2 class='text-8xl lg:mx-0 lg:mt-6 lg:mb-2.5 py-40 font-extrabold pt-20 uppercase ' data-aos="zoom-in-down" data-aos-duration="1500">Skills</h2>
 
                         <div class=' self-end box-border mb-28 w-full'>
 

@@ -7,13 +7,13 @@ export default function Contact() {
 
     return (
         <> 
-        <section class='h-max w-full ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+        <section class='h-max w-full    ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
 
 
             <div class="box-border mx-auto mt-28 flex flex-col  w-4/5 h-3/5 px-4  py-12  m-auto p-0">
                 <h2 class=' text-3xl font-semibold  '>Contact</h2>
 
-                <div class="flex w-full">
+                <div class="md:flex  w-full">
                     <div class="">
                         <h2 class="text-8xl lg:mx-0 lg:mt-6 lg:mb-2.5 py-40 font-extrabold " data-aos="zoom-in-down" data-aos-duration="1500"> Get in touch</h2>
                         <h3 class='box-border font-medium text-2xl mx-0 mb-8 mt-16 p-0  lg:mt-8  uppercase text-gray-600 tracking-wider'> Looking to join or work with an organization <br /> that will leverage my skills and facilitate my professional
@@ -23,6 +23,7 @@ export default function Contact() {
                     
                     <div class="max-w-2xl mx-auto lg:max-w-none">
                         <ContactForm/>
+         
                     </div>
                 </div>
 

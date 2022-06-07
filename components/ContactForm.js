@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactForm() {
     return (
         <>
-               <form action="https://formsubmit.co/btnjose@gmail.com" method="POST" class="grid grid-cols-1 gap-y-6 ">
+               <form action="https://formsubmit.co/6a60a55befeba20fe0f1c03b1f8cc367" method="POST" class="grid grid-cols-1 gap-y-6 ">
               <div>
                 <label htmlFor="full-name" class="sr-only">
                   Full name
